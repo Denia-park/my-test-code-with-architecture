@@ -22,7 +22,7 @@ public class PostController {
     public ResponseEntity<PostResponse> getPostById(@PathVariable long id) {
         return ResponseEntity
                 .ok()
-                .body(toResponse(postService.getPostById(id)));
+                .body(toResponse(postService.getById(id)));
     }
 
     @PutMapping("/{id}")
