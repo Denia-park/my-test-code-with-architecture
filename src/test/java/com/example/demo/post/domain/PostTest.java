@@ -8,6 +8,7 @@ class PostTest {
 //                .writerId(1)
 //                .content("helloworld")
 //                .build();
+//
 //        User writer = User.builder()
 //                .id(1L)
 //                .email("kok202@naver.com")
