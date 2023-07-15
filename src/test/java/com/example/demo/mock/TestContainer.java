@@ -50,10 +50,7 @@ public class TestContainer {
                 .build();
 
         this.userController = UserController.builder()
-                .authenticateService(userService)
-                .userCreateService(userService)
-                .userReadService(userService)
-                .userUpdateService(userService)
+                .userService(userService)
                 .build();
 
 //        this.myInfoController = MyInfoController.builder()
@@ -61,7 +58,7 @@ public class TestContainer {
 //                .build();
 
         this.userCreateController = UserCreateController.builder()
-                .userCreateService(userService)
+                .userService(userService)
                 .build();
 
         this.postController = PostController.builder()
