@@ -1,3 +1,6 @@
+# Inflearn 의 Java/Spring 테스트를 추가하고 싶은 개발자들의 오답노트 강의를 수강하며 진행한 Fork Repo입니다.
+
+
 # Toy for test on spring!
 
 해당 레포지토리는 테스트 코드 추가를 위한 토이 프로젝트 입니다.
